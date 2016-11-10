@@ -1,11 +1,8 @@
 package aflt;
 
-public class RaumInhalt implements IRaumInhalt {
-	private double raumInhalt;
-	
+public class RaumInhalt extends Flaeche implements IRaumInhalt {
 	@Override
 	public double getRaumInhalt() {
-		
-		return 0;
+		return ;
 	}
 }
